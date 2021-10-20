@@ -1,0 +1,22 @@
+{
+  "name": "@fnando/eslint-plugin-consistent-import",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Nando Vieira",
+  "description": "ESlint rule to enforce imports",
+  "asdf": "https://github.com/fnando/eslint-consistent-import",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "import",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "devDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*"
+  }
+}
