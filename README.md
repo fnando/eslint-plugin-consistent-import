@@ -1,7 +1,5 @@
 # eslint-plugin-consistent-import
 
-[![NPM](https://img.shields.io/npm/v/eslint-plugin-consistent-import.svg)](https://www.npmjs.com/package/eslint-plugin-consistent-import)
-
 Enforces consistent import paths when using `import`.
 
 - No relative imports.
