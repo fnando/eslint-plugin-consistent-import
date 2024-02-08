@@ -26,6 +26,7 @@ ruleTester.run("consistent-import", rule, {
     valid(`import * as all from "file"`),
     valid(`import { mod } from "another/file"`),
     valid(`import BigNumber from "bignumber.js"`),
+    valid(`import { patch } from "@rails/request.js"`),
   ],
   invalid: [
     invalid(`import "../file"`, mustNotBeRelative),
